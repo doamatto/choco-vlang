@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Test your packages in a test environment: https://github.com/chocolatey/chocolatey-test-environment -->
+
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>vlang</id>
+    <version>0.2.2</version>
+    <packageSourceUrl>https://github.com/doamatto/choco-vlang</packageSourceUrl>
+    <owners>doamatto</owners>
+    <!-- ============================== -->
+    <title>V (programming (Install)</title>
+    <authors>Alexander Medvednikov</authors>
+    <projectUrl>https://github.com/vlang/v</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/doamatto/choco-vlang@master/icon.png</iconUrl>
+    <copyright>2019-2021 Alexander Medvednikov</copyright>
+    <licenseUrl>https://github.com/vlang/v/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/vlang/v</projectSourceUrl>
+    <docsUrl>https://github.com/vlang/v/blob/master/doc/docs.md</docsUrl>
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/vlang/v/issues</bugTrackerUrl>
+    <tags>vlang v programming-language language compiler</tags>
+    <summary>Simple, fast, safe, compiled. For developing maintainable software.</summary>
+    <description>Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in less than 1s with zero library dependencies.</description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
