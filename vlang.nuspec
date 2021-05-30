@@ -10,7 +10,7 @@
     <!-- ============================== -->
     <title>V (programming (Install)</title>
     <authors>Alexander Medvednikov</authors>
-    <projectUrl>https://github.com/vlang/v</projectUrl>
+    <projectUrl>https://vlang.io/</projectUrl>
     <iconUrl>https://cdn.jsdelivr.net/gh/doamatto/choco-vlang@master/icon.png</iconUrl>
     <copyright>2019-2021 Alexander Medvednikov</copyright>
     <licenseUrl>https://github.com/vlang/v/blob/master/LICENSE</licenseUrl>
@@ -22,6 +22,7 @@
     <tags>vlang v programming-language language compiler</tags>
     <summary>Simple, fast, safe, compiled. For developing maintainable software.</summary>
     <description>Simple, fast, safe, compiled language for developing maintainable software. Compiles itself in less than 1s with zero library dependencies.</description>
+    <releaseNotes>https://github.com/vlang/v/blob/master/CHANGELOG.md</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
