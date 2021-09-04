@@ -4,7 +4,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>vlang</id>
-    <version>0.2.2</version>
+    <version>0.2.4</version>
     <packageSourceUrl>https://github.com/doamatto/choco-vlang</packageSourceUrl>
     <owners>doamatto</owners>
     <!-- ============================== -->
